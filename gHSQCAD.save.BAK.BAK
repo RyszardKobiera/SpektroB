@@ -68,27 +68,27 @@ contour.pos 5 1700 1.400000 0.000000 red
 contour.neg 5 -1700 1.400000 0.000000 green
 <params>
 orientation 1 0
-location -7 0
-size 689 735
-offset 497.079578 1104.501960
+location 536 1
+size 435 735
+offset 497.079578 1253.967268
 scale 1.000000 0.561094
 zoom 1.514355
 flags 0
 <end params>
 <params>
 orientation 1 0
-location -7 0
-size 689 735
-offset 497.079578 1104.501960
+location 536 1
+size 435 735
+offset 497.079578 1253.967268
 scale 1.000000 0.561094
 zoom 1.514355
 flags 0
 <end params>
 <params>
 orientation 1 0
-location -7 0
-size 689 735
-offset 497.079578 1104.501960
+location 536 1
+size 435 735
+offset 497.079578 1253.967268
 scale 1.000000 0.561094
 zoom 1.514355
 flags 0
@@ -255,5 +255,11 @@ pos 13.752 1.300
 label 10C-H
 xy 13.752,1.008 1.300,12.582
 ]
+type peak
+color 0 2 0 white
+flags 1 0 0 0
+id 11
+pos 36.419 3.316
+height 0.000 132.412
 <end ornament>
 <end spectrum>

@@ -69,8 +69,8 @@ contour.neg 10 -1230 1.400000 0.000000 green
 <params>
 orientation 1 0
 location -7 0
-size 689 735
-offset 863.808367 1078.278211
+size 470 735
+offset 863.808367 1217.580023
 scale 1.000000 1.000000
 zoom 0.786063
 flags 0
@@ -78,8 +78,8 @@ flags 0
 <params>
 orientation 1 0
 location -7 0
-size 689 735
-offset 863.808367 1078.278211
+size 470 735
+offset 863.808367 1217.580023
 scale 1.000000 1.000000
 zoom 0.786063
 flags 0
@@ -87,8 +87,8 @@ flags 0
 <params>
 orientation 1 0
 location -7 0
-size 689 735
-offset 863.808367 1078.278211
+size 470 735
+offset 863.808367 1217.580023
 scale 1.000000 1.000000
 zoom 0.786063
 flags 0
@@ -173,7 +173,7 @@ flags 0 0 0 1
 mode 2
 pos 2.553 2.554
 label 5H-H
-xy 2.553,2.509 2.554,2.508
+xy 2.553,2.509 2.594,3.165
 ]
 type peak
 color 0 2 0 white
@@ -189,7 +189,7 @@ flags 0 0 0 1
 mode 2
 pos 2.264 2.263
 label 6H-H
-xy 2.264,2.218 2.263,2.219
+xy 2.264,2.218 2.074,2.876
 ]
 type peak
 color 0 2 0 white
@@ -205,7 +205,7 @@ flags 0 0 0 1
 mode 2
 pos 2.089 2.090
 label 7H-H
-xy 2.089,2.045 2.090,2.044
+xy 2.089,2.045 1.682,2.512
 ]
 type peak
 color 0 2 0 white
@@ -415,5 +415,11 @@ pos 3.938 2.275
 label 1H-6H
 xy 3.938,2.230 2.144,4.536
 ]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 21
+pos 4.904 1.567
+height 0.000 223.294
 <end ornament>
 <end spectrum>

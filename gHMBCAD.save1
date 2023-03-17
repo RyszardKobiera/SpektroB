@@ -13,8 +13,8 @@ default print file
 default print options 2 27 1.000000 1.000000
 <end user>
 <spectrum>
-name gHSQCAD
-pathname ../SpektroB/gHSQCAD.ucsf
+name gHMBCAD
+pathname ../SpektroB/gHMBCAD.ucsf
 dimension 2
 shift 0.000000 0.000000
 points 1024 2048
@@ -45,52 +45,52 @@ integrate.tolerance 0.001000
 peak.pick 0.000000 0.000000 0.000000 0.000000 0
 peak.pick-minimum-linewidth 0.000000 0.000000
 peak.pick-minimum-dropoff 0.00
-noise.sigma 134.606384
-ornament.label.size 15.361081
-ornament.line.size 0.399388
-ornament.peak.size 1.198164
+noise.sigma 209.071259
+ornament.label.size 17.068126
+ornament.line.size 0.401101
+ornament.peak.size 1.199036
 ornament.grid.size 0.400000
-ornament.peakgroup.size 0.798776
+ornament.peakgroup.size 0.797935
 ornament.selectsize 0.500000
 ornament.pointersize 0.500000
 ornament.lineendsize 0.500000
 <attached data>
 <end attached data>
 <view>
-name gHSQCAD
+name gHMBCAD
 precision 0
 precision_by_units 0 0 0
 viewmode 0
 show 1 label line peak grid peakgroup
 axistype 2
 flags crosshair crosshair2
-contour.pos 5 1700 1.400000 0.000000 red
-contour.neg 5 -1700 1.400000 0.000000 green
+contour.pos 5 700 1.400000 0.000000 red
+contour.neg 5 -1050 1.400000 0.000000 green
 <params>
 orientation 1 0
-location -7 0
-size 689 735
-offset 497.079578 1104.501960
-scale 1.000000 0.561094
-zoom 1.514355
+location 1053 0
+size 397 735
+offset 563.957915 1274.475329
+scale 1.000000 0.467585
+zoom 1.436546
 flags 0
 <end params>
 <params>
 orientation 1 0
-location -7 0
-size 689 735
-offset 497.079578 1104.501960
-scale 1.000000 0.561094
-zoom 1.514355
+location 1053 0
+size 397 735
+offset 563.957915 1274.475329
+scale 1.000000 0.467585
+zoom 1.436546
 flags 0
 <end params>
 <params>
 orientation 1 0
-location -7 0
-size 689 735
-offset 497.079578 1104.501960
-scale 1.000000 0.561094
-zoom 1.514355
+location 1053 0
+size 397 735
+offset 563.957915 1274.475329
+scale 1.000000 0.467585
+zoom 1.436546
 flags 0
 <end params>
 <end view>
@@ -99,161 +99,119 @@ type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 1
-pos 71.384 3.996
-height 0.000 2330.127
-rs |1|C| |1|H|
+pos 53.772 2.090
+height 0.000 72207.820
+rs |6|C| |7|H|
 [
 type label
 color 2 0 0 white
 flags 0 0 0 1
 mode 2
-pos 71.384 3.996
-label 1C-H
-xy 71.384,3.703 3.996,70.213
+pos 53.772 2.090
+label 6C-7H
+xy 53.772,1.739 2.090,52.366
 ]
 type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 2
-pos 67.767 3.381
-height 0.000 288.587
-rs |4|C| |4|H|
+pos 23.635 2.098
+height 0.000 17830.244
+rs |8|C| |7|H|
 [
 type label
 color 2 0 0 white
 flags 0 0 0 1
 mode 2
-pos 67.767 3.381
-label 4C-H
-xy 67.767,3.088 3.381,66.597
+pos 23.635 2.098
+label 8C-7H
+xy 23.635,1.747 2.098,22.230
 ]
 type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 3
-pos 54.002 2.267
-height 0.000 89834.508
-rs |6|C| |6|H|
+pos 53.793 0.888
+height 0.000 765512.063
+rs |6|C| |8|H|
 [
 type label
 color 2 0 0 white
 flags 0 0 0 1
 mode 2
-pos 54.002 2.267
-label 6C-H
-xy 54.002,1.974 2.267,52.832
+pos 53.793 0.888
+label 6C-8H
+xy 53.793,0.537 0.888,52.388
 ]
 type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 4
-pos 23.762 0.884
-height 0.000 -269679.313
-rs |8|C| |8|H|
+pos 66.645 1.256
+height 0.000 6602.375
+rs |4|C| |10|H|
 [
 type label
 color 2 0 0 white
 flags 0 0 0 1
 mode 2
-pos 23.762 0.884
-label 8C-H
-xy 23.762,0.592 0.193,18.159
+pos 66.645 1.256
+label 4C-10H
+xy 66.645,0.905 1.256,65.240
 ]
 type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 5
-pos 31.650 2.088
-height 0.000 -216333.328
-rs |7|C| |7|H|
+pos 70.250 2.095
+height 0.000 3025.276
+rs |1|C| |7|H|
 [
 type label
 color 2 0 0 white
 flags 0 0 0 1
 mode 2
-pos 31.650 2.088
-label 7C-H
-xy 31.650,1.796 1.641,41.740
+pos 70.250 2.095
+label 1C-7H
+xy 70.250,1.744 2.095,68.845
 ]
 type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 6
-pos 20.112 1.166
-height 0.000 -15566.112
-rs |9|C| |9|H|
-[
-type label
-color 2 0 0 white
-flags 0 0 0 1
-mode 2
-pos 20.112 1.166
-label 9C-H
-xy 20.112,0.874 1.289,16.590
-]
+pos 89.278 1.697
+height 0.000 166.369
 type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 7
-pos 34.869 2.542
-height 0.000 -1433.449
-rs |5|C| |5|H|
+pos 19.429 1.408
+height 0.000 5816.103
+rs |9|C| |11|H?|
 [
 type label
 color 2 0 0 white
 flags 0 0 0 1
 mode 2
-pos 34.869 2.542
-label 5C-H
-xy 34.869,2.249 3.325,32.151
+pos 19.429 1.408
+label 9C-11H?
+xy 19.429,1.057 1.408,18.024
 ]
 type peak
 color 0 2 0 white
 flags 0 0 0 0
 id 8
-pos 28.457 1.343
-height 0.000 -7236.182
-rs |11|C| |11|H|
+pos 34.639 1.165
+height 0.000 19873.285
+rs |5|C| |9|H|
 [
 type label
 color 2 0 0 white
 flags 0 0 0 1
 mode 2
-pos 28.457 1.343
-label 11C-H
-xy 28.457,1.050 0.532,44.439
-]
-type peak
-color 0 2 0 white
-flags 0 0 0 0
-id 9
-pos 24.734 1.518
-height 0.000 -3590.866
-rs |12|C| |12|H|
-[
-type label
-color 2 0 0 white
-flags 0 0 0 1
-mode 2
-pos 24.734 1.518
-label 12C-H
-xy 24.734,1.225 2.633,3.316
-]
-type peak
-color 0 2 0 white
-flags 0 0 0 0
-id 10
-pos 13.752 1.300
-height 0.000 -1219.509
-rs |10|C| |10|H|
-[
-type label
-color 2 0 0 white
-flags 0 0 0 1
-mode 2
-pos 13.752 1.300
-label 10C-H
-xy 13.752,1.008 1.300,12.582
+pos 34.639 1.165
+label 5C-9H
+xy 34.639,0.814 1.165,33.234
 ]
 <end ornament>
 <end spectrum>
