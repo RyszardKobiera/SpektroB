@@ -1,0 +1,192 @@
+<sparky save file>
+<version 3.114>
+<user>
+set mode 0
+set saveprompt 0
+set saveinterval 0
+set resizeViews 0
+set keytimeout 3000
+set cachesize 4
+set contourgraying 1
+default print command print
+default print file 
+default print options 2 27 1.000000 1.000000
+<end user>
+<spectrum>
+name gHMBCAD
+pathname ../SpektroB/gHMBCAD.ucsf
+dimension 2
+shift 0.000000 0.000000
+points 1024 2048
+assignMultiAxisGuess 0
+assignGuessThreshold 0.000000
+assignRelation 1 4 
+assignRelation 2 4 
+assignRange 1 0.000000
+assignRange 2 0.000000
+assignFormat %a1-%a2
+listTool sortBy label
+listTool nameType assignment
+listTool sortAxis w1
+listTool showFlags frequency
+integrate.overlapped_sep 120.000 30.000
+integrate.methods 1 0 1
+integrate.allow_motion 1
+integrate.adjust_linewidths 1
+integrate.motion_range 0.040 0.010
+integrate.min_linewidth 0.0133 0.0033
+integrate.max_linewidth 1.3259 0.3334
+integrate.fit_baseline 0
+integrate.subtract_peaks 0
+integrate.contoured_data 1
+integrate.rectangle_data 0
+integrate.maxiterations 10000
+integrate.tolerance 0.001000
+peak.pick 0.000000 0.000000 0.000000 0.000000 0
+peak.pick-minimum-linewidth 0.000000 0.000000
+peak.pick-minimum-dropoff 0.00
+noise.sigma 209.071259
+ornament.label.size 17.068126
+ornament.line.size 0.401101
+ornament.peak.size 1.199036
+ornament.grid.size 0.400000
+ornament.peakgroup.size 0.797935
+ornament.selectsize 0.500000
+ornament.pointersize 0.500000
+ornament.lineendsize 0.500000
+<attached data>
+<end attached data>
+<view>
+name gHMBCAD
+precision 0
+precision_by_units 0 0 0
+viewmode 0
+show 1 label line peak grid peakgroup
+axistype 2
+flags crosshair crosshair2
+contour.pos 5 5000 1.400000 0.000000 red
+contour.neg 5 -1050 1.400000 0.000000 green
+<params>
+orientation 1 0
+location 1053 0
+size 397 736
+offset 563.609858 1274.475329
+scale 1.000000 0.467585
+zoom 1.436546
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 1053 0
+size 397 736
+offset 563.609858 1274.475329
+scale 1.000000 0.467585
+zoom 1.436546
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 1053 0
+size 397 736
+offset 563.609858 1274.475329
+scale 1.000000 0.467585
+zoom 1.436546
+flags 0
+<end params>
+<end view>
+<ornament>
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 1
+pos 53.772 2.090
+height 0.000 72207.820
+rs |1|C| |2|H|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 53.772 2.090
+label 1C-2H
+xy 53.772,1.739 2.090,52.366
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 2
+pos 23.635 2.098
+height 0.000 17830.244
+rs |4|C| |2|H|
+[
+type label
+color 2 0 0 white
+flags 1 0 0 1
+mode 2
+pos 23.635 2.098
+label 4C-2H
+xy 23.635,1.747 2.098,6.242
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 3
+pos 53.793 0.888
+height 0.000 765512.063
+rs |1|C| |4|H|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 53.793 0.888
+label 1C-4H
+xy 53.793,0.537 0.888,52.388
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 4
+pos 66.645 1.256
+height 0.000 6602.375
+rs |4|C| |10|H|
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 5
+pos 89.278 1.697
+height 0.000 166.369
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 6
+pos 25.430 2.089
+height 0.000 11263.626
+rs |3|C| |2|H|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 25.430 2.089
+label 3C-2H
+xy 25.430,1.738 0.481,11.790
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 7
+pos 23.634 2.270
+height 0.000 302438.781
+rs |4|C| |1|H|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 23.634 2.270
+label 4C-1H
+xy 23.634,1.919 3.051,15.214
+]
+<end ornament>
+<end spectrum>

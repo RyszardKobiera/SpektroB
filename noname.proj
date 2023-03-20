@@ -1,0 +1,33 @@
+<sparky project file>
+<version 3.114>
+<savefiles>
+../SpektroB/gCOSY.save.BAK.BAK.BAK
+<end savefiles>
+<options>
+<end options>
+<overlays>
+<end overlays>
+<attached data>
+<end attached data>
+<molecule>
+name 
+<attached data>
+<end attached data>
+<condition>
+name 
+<resonances>
+|1|H|        3.56625       1H
+|2|H|        3.1615        1H
+|3|H|        3.051         1H
+|4|H|        3.365         1H
+|5|H|        2.091         1H
+|6|H|        2.70075       1H
+|7|H|        1.69          1H
+|8|H|        1.29133       1H
+|9|H|        1.975         1H
+|10|H|       1.88525       1H
+|11|H|       1.369         1H
+|12|H|       1.523         1H
+<end resonances>
+<end condition>
+<end molecule>
